@@ -8,6 +8,7 @@ phases:
   pre_build:
     commands:
       - npm install
+      - echo "Build completed!!!"
   build:
     commands:
       - ng build -c production
